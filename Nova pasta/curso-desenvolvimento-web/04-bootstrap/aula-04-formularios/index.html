@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Formulário Bootstrap
+        </title>
+        <link rel="stylesheet" href="../assets/bootstrap.min.css">
+        <script src="../assets/bootstrap.bundle.min.js" defer>
+        </script>
+    </head>
+    <body>
+        <main class="container py-4">
+            <h1>
+                Inscrição de exemplo
+            </h1>
+            <form method="get">
+                <div class="mb-3">
+                    <label class="form-label" for="nome">
+                        Nome
+                    </label>
+                    <input class="form-control" id="nome" name="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="trilha">
+                        Trilha
+                    </label>
+                    <select class="form-select" id="trilha" name="trilha">
+                        <option>
+                            HTML
+                        </option>
+                        <option>
+                            PHP
+                        </option>
+                    </select>
+                </div>
+                <button class="btn btn-success">
+                    Enviar exemplo
+                </button>
+            </form>
+        </main>
+    </body>
+</html>

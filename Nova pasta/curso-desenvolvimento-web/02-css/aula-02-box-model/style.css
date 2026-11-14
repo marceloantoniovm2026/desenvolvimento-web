@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.caixa {
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 3px solid #2563eb;
+    background: #eff6ff;
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 1rem;
+    font: 1.1rem/1.6 sans-serif;
+}
+main {
+    max-width: 1000px;
+    margin: auto;
+    display: grid;
+    gap: 2rem;
+}
+aside {
+    background: #e0f2fe;
+    padding: 1rem;
+    overflow-wrap: anywhere;
+}
+@media (min-width: 768px) {
+    main {
+        grid-template-columns: 2fr 1fr;
+    }
+    body {
+        padding: 3rem;
+    }
+}

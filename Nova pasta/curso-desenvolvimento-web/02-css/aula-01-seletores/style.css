@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #172554;
+    margin: 2rem;
+}
+p {
+    line-height: 1.6;
+}
+.destaque {
+    background: #fef08a;
+    padding: 1rem;
+}
